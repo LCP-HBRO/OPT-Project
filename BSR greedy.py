@@ -1,16 +1,5 @@
 def balanced_staff_routing_greedy_with_heuristic(N, K, d, t):
-    """
-    Heuristic approach for the Balanced Staff Routing for Maintenance problem.
-
-    Args:
-    N: Number of customers.
-    K: Number of staff (workers).
-    d: List of maintenance times for each customer.
-    t: Travel time matrix.
-
-    Returns:
-    A tuple containing the routes and the maximum working time of any worker.
-    """
+    
     # Initialize routes and total working times
     routes = [[] for _ in range(K)]
     total_time = [0] * K
